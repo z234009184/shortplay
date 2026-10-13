@@ -4,9 +4,6 @@ IOS体验地址：https://testflight.apple.com/join/bZEAapYp
 
 Flutter 短剧播放器，**核心做两件事：原生 DRM 解密 + 像红果短剧一样丝滑的滑动体验**。
 
-> 本项目仅用于学习和技术交流，不提供任何内容资源。使用时请确保拥有相关接口和内容的合法授权。
-> 涉及到的所有算法不开源（六神，spade_a）。
-
 ## 一、原生 DRM 解密
 
 短剧 CDN 下发的是标准 MP4 CENC（AES-128 CTR）加密视频。本项目用纯 C 实现解密核心，**Android/iOS 共用一套代码**，零第三方依赖：
